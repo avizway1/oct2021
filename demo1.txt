@@ -1,0 +1,341 @@
+--> Do we required any experience to learn AWS.?
+ANS : No prior experience required to learn AWS..!! From Scratch
+
+--> Do we need to learn Linux.? Windows..?
+ANS : YES.. Basic Linux required..  FREE Linux.. Linux on AWS (Pre Recorded course)..
+2-3 Sessions on Linux OS in COurse..
+YES.. With Windows and Linux.
+
+--> DO we need any Networking/storage/server/database experience.?
+ANS : NO.. NOVOICE.. Basic to Advanced..!!
+
+--> Do we need to have any Programing experience to learn aws..!!
+ANS : NO Prog exp required to learn aws..!!! 
+
+Development job : 
+AWS Developer : YES, (Python, .net core, java, node.js, go, ruby, TYpeScript, JSON/YAML)
+--> CDK (Cloud Development Kit) / Cloud9 / SDK
+
+Operational job: 
+AWS Engineer / CLoud engineer / SysOps Administrator / Cloud NEtwork engineer / Cloud DBA / Cloud Storage admin / AWS Security specialist..!!
+
+--> Do we need to learn DevOps along with AWS..??
+ANS : No.. AWS DevOps tools.. Code Commit (git), Code build (maven), Codedeploy, Pipeline (Jenkins)... FREE Jenkins and GIT Course..!! (Pre Recorded)
+
+--> Do we have any project..?? Is it hands-on..??
+ANS : 95% Hands-On.. Scenario based..!!
+
+Migration : SMS (Server Migration Service) : Azure --> AWS, GCP --> AWS (Pre Recorded Video)
+
+--> Live environment review..!! 
+--> Simulated to real env..!!
+
+--> Am a .net/java/python/****, WIll this course helps me..!!
+ANS : Added advantage to your profile, You can promote yourself as AWS Developer..
+
+--> 700/800 Certification questions am gonna share.
+
+--> CLoudpractitioner, SA-A, SyOps-A, Developer-A.. 
+
+--> You can add Min 3-4 yrs experience to your profile once you complete the course and task..!!
+
+Course Duration : 35-40 Sessions..!! 
+
+7:30 AM IST - 8:30/45 AM IST.. 
+
+
+For Any enquiries contact batch Admins : 
+omprakash 9000225725 or 
+Naga babu sir 9553377893
+
+
+https://s3.ap-south-1.amazonaws.com/avinash.bucket/aws.pdf
+
+____________________
+
+AWS  :-7.30AM by Avinash sir 
+Fee:- 8000/- (including GST) Without videos 
+Fee:- 12000/- (including GST)with videos
+
+
+Bank Details 
+Name: Naresh i Technologies
+A/C No. 50200022639833     
+Bank: HDFC
+A/C Type: Current Account
+IFSC Code: HDFC0001627
+MICR Code: 500240035
+Branch Code: 001627
+Branch:  Ameerpet
+
+Note: If you want to use Phonepe or Google Pay then follow the below steps.
+
+You can find the option Bank Transfer in Phonepe and Google pay. There you can enter our bank account number and you can transfer the amount.  Please mention your Name on the receipt and send a email once the payment is done to support@nareshit.com.
+  
+For any Queries, call 
+9000225725 omprakash 
+9553377893 Nagababu
+__________________________________________________________________________________
+
+10 car = Rented : SP : AWS CLoud COmputing Service Provider. : SQS (Simple Queue Service) : Chris Pinkman and Benjamin black : Sell it as a service : 
+Computing resources : Servers, Database, Network, Storage, Applications and Services.
+On-Demand basis.. 
+
+Pay-as-you-go : Pay for the resources you actually used. 
+
+Public Cloud : Open for everyone..!!
+
+AWS : MS Azure : GCP : Oracle Cloud : Alibaba Cloud : Rackspace : 
+
+Purchase Server : OS : Runtime : Application
+Full Upfront : Invest first.. 
+
+Account : Pick the configuration of server : Run your application : runtime : Application
+ 
+1 Server : Lot of load..!! : Purchase Load Balancer : 
+
+Jeff Bejos : 
+Andy Jessy : AWS & Amazon.com
+
+Annual Conference : AWS Re:Invent : Nov-Dec.. 
+
+
+for AWS avinash sir 7.30am paid  batch students Unix / Linux by imran sir batch Free !!!!
+
+UNIX/LINUX @ 6:00 PM (IST) by Mr.Imran from 1st October
+Link: zoom.us/j/93731169136
+Pwd: 112233
+
+________________________________________
+
+AWS @ 7:30 AM | Mr. Avinash
+Day-1: https://youtu.be/NyLFqlVDpd0
+Day-2: https://youtu.be/xfuBHDOOfuQ
+Day-3: https://youtu.be/dfsv6jlF47k
+
+
+______________________________________________________________________________________
+
+D: 05/10/2021
+
+Regions : No technical defination.. : Physical location / geographical location..  25 Regions across the globe.. EVery region contains min of 2 AZs.. 
+
+Mumbai : ap-south-1
+hyd : ap-south-2
+N Virginia : us-east-1
+canada : ca-central-1
+
+AZs / Availability Zone : 81 AZs.. : Data Centre or combination of multiple DCs..!! 
+100 kms distance of each other AZ (60 miles).. 
+
+PoP Locations / Edge Locations / CDN Endpoints : Cloudfront : 
+
+TTL : TIme to Live : 86400 Sec : 1 Day / 24 Hrs..!! 
+Invalidation : Clear the cache from Edge locations.!! 
+
+Pay-as-you-go : 
+
+_____________________________________________________________________________________
+
+D: 06/10/2021
+
+https://aws.amazon.com/free
+
+EC2 : Elastic Compute Cloud : Launch Server and deliver our applications..!! 
+S3 : Simple Storage Service : Storage service in aws.. GoogleDrive/OneDrive/Dropbox
+VPC : Virtual Private Cloud : Network in AWS.. 
+RDS : Relational Database Service : mysql / mssql / oracle..!!
+
+
+https://aws.amazon.com/free
+
+Email : Valid email : 			--> Root		
+Pwd : Strong and secured pwd
+Conform pwd : 
+Account Name : UAT/Prod/NonProd/Sanbox : 
+
+Contact Information : Type of Account (Personal / Professional)		
+Name : 
+Address : 
+
+Payment information : Credit card / Debit card : Visa / Master Card / AMEX / Discovery
+Validate the payment info : 2 INR (Refund)				
+
+Identity Verification : Phone call / Text Msg verification : 
+
+Choose the Support Plan : 
+
+1. Accounting and Billing related : 24x7, FOr all SP
+2. Service limit increase : 24x7, FOr all SP
+3. Technical assistance : Depends on our SP.
+
+Basic SP : Cost : Free.. 1 & 2 included.. No Technical Support.. AWS Developer forums / Knowledge Base Articles..
+--> 7 Core area trusted advisor checks
+
+Developer SP : Sratrs from 29$/Month.. 3 --> Email Support.. 12-24 Local business hours, Cloud support associate.. 
+--> 7 Core area trusted advisor checks
+One user can raise ticket.. Unlimited tickets.. : 
+Case Severity : 
+General guidance : < 24 Hrs
+System Impaired : < 12 Hrs
+
+Business SP : Sratrs from 100$/Month.. 3 --> 24x7 Email, Phone, chat Support., Cloud support Engineer.. 
+--> Full Trusted advisor checks
+Any user can raise ticket.. Unlimited tickets.. : 
+Case Severity : 
+General guidance : < 24 Hrs
+System Impaired : < 12 Hrs
+Production SYsten impaired : < 4 Hrs
+Production system Down : < 1 Hr
+
+Enterprise SP : Starts from 15,000$/Month.. 3 --> 24x7 Email, Phone, chat Support., Cloud support Engineer.. 
+--> Full Trusted advisor checks
+--> Annual Operational reviews and Architectural reviews.
+--> AWS allocated a Dedicated TAM (Technical Account Manager)
+Any user can raise ticket.. Unlimited tickets.. : 
+Case Severity : 
+General guidance : < 24 Hrs
+System Impaired : < 12 Hrs
+Production SYsten impaired : < 4 Hrs
+Production system Down : < 1 Hr
+Business Critical system down : < 15 Min
+
+
+https://www.youtube.com/watch?v=Yh076-09wzk
+
+
+https://www.udemy.com/course/jenkinswithavinash/?couponCode=OCT2021
+
+https://www.udemy.com/course/linuxwithavinash/?couponCode=OCT2021
+
+https://www.udemy.com/course/gitbyavinash/?referralCode=F7D62CDB4D61EADE1CC7
+
+________________________________________________________________________________________
+
+D: 07/10/2021
+
+https://aws.amazon.com/console
+aws.com
+
+
+Root user : If you are using email id to login to your account : Email, pwd
+--> root user will have unrestricted access on our account : He can change SP, He can change payment information, He can close AWS account, He can delete any resource.
+
+Account owner that performs tasks requiring unrestricted access.
+
+3 Users working on AWS account : root user name and pwd
+
+--> TL : Full Access on AWS
+--> IAM Admin : He takes about user accounts in AWS. 
+--> S3 : Dedicated Admin
+--> EC2 : Dedicated Admin 
+
+IAM User : Identity and Access Management : We can manage users/groups and their level of access on AWS Environment using IAM. 
+
+Create 3 Users and provide permissions to perform respective operations only. 
+
+--> Least Privilages Mechanism : What exactly permissions iser required, provide only thse permisions. 
+
+--> TL : Full Access on AWS : UserName and Pwd : Administrator Access
+--> S3 : Dedicated Admin  : UserName and Pwd :  S3 Full Access
+--> EC2 : Dedicated Admin : UserName and Pwd : EC2 Full Access
+
+Virtual MFA : Microsoft AUthenticator, Google Authenticator, Authy2 Factor.. 
+hardware MFA device / Physical Device : Purchase supported hardware and activate.  
+yubykey / u2f key : 
+
+https://aws.amazon.com/iam/features/mfa/?audit=2019q1
+
+** AWS Strongly recommend to enable MFA for Root User. 
+
+Task : Create an AWS acocunt and Enable MFA.
+
+_______________________________________________________________________________________
+
+D: 08/10/2021
+
+
+Requirement : Create a User Who can access S3 platform. (UN : S3Admin)
+Requirement : Create a User Who can access EC2 platform. (UN : ec2Admin)
+Requirement : Create a User Who can access all services. (UN : awsadmin)
+
+KT Sessions : Naming Standards
+SOP Document : Standard Operational Procedure : 
+
+Username : S3Admin
+
+Access Type : 
+--> Management console access : GUI : UN, PWD & Sign-In : Browser
+--> Programatic Access : AccesskeyID and SecretAccessKey : CLI, API, SDK / 3rd Party app 
+
+Permissions : Associating required policy.
+
+Add user to group : Permissions comes from group. 
+Copy permissions from Another user : 
+Attach permissions directly to the user. 
+
+Policy : Document contains set of permissions on AWS environment. It writtens in JSON format. 
+AmazonS3FullAccess : Provides full access to all buckets via the AWS Management Console.
+
+Add tags (optional) : 
+
+Review and create. 
+
+
+Birth COnfiguration : MFA, ALias Name, Strong password policy : IAM
+
+_______________________________________________________________________________________
+
+D: 11/10/2021
+
+Policy : 
+
+AWS Managed policy : Managed by AWS, Based on Service we will get permisisons.
+AWS Managed policy - Job Function : Managed by AWS, Based on Standard Job Roles/Functions we will get permisisons. (DBA, Network Admin, AdministratorAccess,..)
+Customer Managed Policy : Created and Managed by US. Based on our custom req we can create.
+
+Implicit Allow : 
+Explicit Deny : 
+
+Req : IAM User S3 Full Access : 
+Req : User with AdministratorAccess but not on S3 platform : 
+
+DENY will always have Highest Permissions/privilages.
+You allow 100 times, but if you deny 1 time at any level (Resource, User level, Group level), Deny will take effect.
+
+Policy Simulator : https://policysim.aws.amazon.com/home/index.jsp?#
+
+Credentials report : 
+
+How to track IAM User activity : CloudTrail 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
