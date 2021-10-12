@@ -84,16 +84,24 @@ Task 4 : Create a "Customer Manager Policy" to activate MFA For an IAM user.
 
 Create an IAM user, Associate "S3 Full access", Login as this iam user.. along with S3.. He should get permissions to ACtivate/deactivate MFA device.
 
-______________
+______________________________________________________________________________________
 
+D: 12/10/2021
 
 Inline Policy : Applies to only one resource. We cannot reuse this policy. 
-
-Task : Create an IAM User, Allocate "Administrator Access".. Enable billing access to an IAM user.. Use this same user throughout course.
-
 
 Permissions Boundary : Set a permissions boundary to control the maximum permissions this user can have.
 
 ___
 
 Least privilages mechanism : Allocate permissions to perform the required job/activity only.
+
+
+
+https://join.slack.com/t/awswithavinash/shared_invite/zt-ozg7f9gx-lGdrFMlaOAc_BiPl4V~f4w
+
+
+
+
+
+
