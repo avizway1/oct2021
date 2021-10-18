@@ -1,5 +1,5 @@
 S3 : Simple Storage Service : 
-
+-
 Object based storage :  We cannot install/run any applications/os. : Dropbox / GDrive 
 --> Designed to flat files.
 
@@ -37,6 +37,10 @@ Block public access (bucket settings) : Bucket level Blocking
 S3 Free Tier ELigibility : 
 5 GB Standard Storage
 --> 2000 PUT / 20,000 GET
+
+_______________________________________________________________________________
+
+D: 18/10/2021
 
 S3 Storage Classes : 
 
@@ -78,3 +82,25 @@ Glacier data retrival :
 Bulk retrieval : Typically within 5-12 hours.
 Standard retrieval : Typically within 3-5 hours.
 Expedited retrieval : Typically within 1-5 minutes when retrieving less than 250 MB.
+
+_________
+
+Version : AWS maintains multiple copies in s3 bucket. 
+--> Defaultly versioning will be in Suspended state.
+--> When versioning is enabled, If we delete an object
+
+Versioning : HIDE
+--> S3 will show most recent uploaded object only.
+--> We will get a Delete Marker. 
+--> TO get object back / undo delete, Set Version to SHOW, Delete the delete marker.
+
+Versioning : SHOW
+--> If we delete an object, it deletes permanently.
+
+_________
+
+Life Cycle Management Rule : 
+
+S3 Standard --> StandardIA --> Glacier --> Delete
+S3 Standard --> Glacier --> Delete
+S3 Standard --> Delete
