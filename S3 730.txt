@@ -97,10 +97,33 @@ Versioning : HIDE
 Versioning : SHOW
 --> If we delete an object, it deletes permanently.
 
-_________
+_____________________________________________________________________________________
+
+D: 19/10/2021
 
 Life Cycle Management Rule : 
 
 S3 Standard --> StandardIA --> Glacier --> Delete
 S3 Standard --> Glacier --> Delete
 S3 Standard --> Delete
+
+
+CRR / SRR : 
+--> Source bucket and destination bucket must be enabled with versioning. 
+--> Existing objects will not replicate to the destination bucket.
+--> All future / subsequent uploads will replicate to destination bucket. 
+
+RTC : Replication time control : Data replicates to destination bucket with in 15 Min. (99.99% of the data) : COST US
+
+___
+Data transfer from One region to another region cost us.
+Data transfer within a region won't cost us anything.
+______
+
+Server access logging : enable logging on bucket.
+
+Cloudtrail : Data events : It allow us to log all s3 activities (Current buckets and future buckets).
+________________________________
+
+
+
