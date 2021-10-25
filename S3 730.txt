@@ -293,7 +293,49 @@ In S3, Perfix place imp role. /prefix we will get 3500 put & 5500 get operations
 
 Req: 35,000 PUT.. --> Create 10 folders and upload data simumtaniously. 
 
+______________________________________________________________________________________
 
+D: 23/10/2021
+
+Consistancy Mechanism : 
+
+Read after write Consistency for PUT of new objects. (If we upload any object, it will be available immedeatly without any delay)
+Eventual Consistency overwrite of Put objects and Delete objects. (If any object is overwritten/deleted, at same time if any request is generated slight chances are there to get the deleted data/outdated data)
+
+__________________
+
+How to access s3 using 3rd party applications.!!
+Ans : S3 Browser, CyberDuck, WinSCP, CLoudberry explorer
+
+https://www.msp360.com/explorer/windows/amazon-s3.aspx
+
+
+Task : Try any of the s3 supported 3rd party application. 
+
+_________________
+
+AWS Snow Family : 
+--> AWS snowcone : 8 TB
+--> AWS Snowball : 100 TB
+--> AWS Snowball edge : 40 - 100 TB
+--> AWS Snow mobile : PB scale container
+
+AWS Direct Connect : Dedicated connection between on-premise/local environment to AWS environment. 3-4 weeks time required. We need to choose the required bandwidth. 
+--> Airtel, jio, sify
+
+
+--> Storage classes
+--> Versioning
+--> LCR
+--> CRR/SRR
+--> Encryption
+--> Bucket policy
+
+
+
+aws s3 sync sourcebucket destinationbucket
+WIndows ; Task Scheduler
+Linux : Cronjob
 
 
 
