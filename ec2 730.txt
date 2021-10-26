@@ -43,14 +43,10 @@ If price not increased "YOU termnated instance", we need to pay for full usage h
 1 Hr 30 Min : YOU terminated : 1 Hr 30 Min
 
 "NO FREE TIER ELIGIBILITY"
-________________________________
-Shared tenancy : Underlying resources shares with multiple customers.
-Dedicated tenancy : Underlying resources dedicatedly available to only one aws account. 
-	--> Dedicated Instance : 
-	--> Dedicated Host : 
+
 _________________________________________________________________________________________
 
-D: 
+D: 26/10/2021
 
 Only On-Demand ec2 instances comes under free tier eligibility.
 
@@ -81,7 +77,7 @@ m5.large	: 2 CPU, 8 RAM
 c5.xlarge	: 4 cpu, 8 ram
 t3.medium	: 2 cpu, 4 ram
 
-Maintenance windows : Sat 06 AM IST.. : greenzone window
+Maintenance windows : Sat 03 AM IST.. : greenzone window
 
 Step 3 : Configure additional settings
 	VPC, ROles, userdata
@@ -144,5 +140,26 @@ Task : Launch windows ec2 instance and using keypair get connect to ec2 instance
 
 Task 2 : CHange the password of "Administrator", Disconnect from the instance. Now try to login to ec2 instance using "keypair pwd" , "Custom password".
 
-Task 3 : Create a user in ec2 instance provide him "Local administrator rights", also provide him "Remote desktop permissions".. Take a session with this user along with administrator.
+Task 3 : "Create a new user" in ec2 instance and provide him "Local administrator rights", also provide him "Remote desktop permissions".. Take a session with this user along with administrator.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+________________________________
+Shared tenancy : Underlying resources shares with multiple customers.
+Dedicated tenancy : Underlying resources dedicatedly available to only one aws account. 
+	--> Dedicated Instance : 
+	--> Dedicated Host : 
