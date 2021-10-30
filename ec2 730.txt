@@ -310,18 +310,37 @@ http://localhost/ or http://127.0.0.1/
 Whenever we launch an ec2 instance, 2 status checks will happen. 
 -> System Status check : H/w is healtlhy or not at Physical resource level. (STOP/START)
 -> Instane status check : OS level issues.
-__
+
+Task : Launch a windows ec2 instance, make it as "Web Server", Test the "Security groups".
+
+_______________________________________________________________________________________
+
+D: 30/10/2021
+
 Tenancy in AWS : 
 --> Shared Tenancy : Underlying hardware/resources will be shared with multiple AWS customers. 
 --> Dedicated Tenancy : Underlying hardware/resources will dedicatedly available to only one AWS customer. It won't share with any other.
 	--> Dedicated Instance : 
 	--> Dedicated Host : Host supports to launch multiple instances. Some applications required physical resources inforamtion to apply the licenses. 
 
+_______________
 
-Task : Launch a windows ec2 instance, make it as "Web Server", Test the "Security groups".
+Scenario : 10 ec2 instances.. AV, MS Office, Custom WP, CUstom OS users, Applications, IIS.. 
 
-_______________________________________________________________________________________
+--> Launching 10 instance : connect to 10 instance and install everything in all 10 instance.. 
+--> 1 ec2 instance : Install everything.. : Keep it as Image : --> Launch "n" number using image..
 
+Client : OS with CIS Benchmarks (Center for Internet Security) : 
 
+*** GoldenAMI = CUstomized AMI.. Won't work with keypairs.. We need to change the password.. 
+
+Ec2 instance , Perform customizations --> Create a Golden AMI --> From GAMI we can launch n num of ec2 instance.. 
+
+Similar to Snapshots..
+
+--> We can launch another instance in same region using GAMI.
+--> We can copy Region 1 GAMI to Region 2, And launch an ec2 instance in Region 2. 
+--> We can share GAMI from Acc 1 to Acc 2. 
+--> We can share GAMI to public.
 
 
