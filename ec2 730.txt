@@ -418,9 +418,7 @@ Task : Launch a windows instance and install IIS, Custom WP, Timezone.. and crea
 
 Task 2 : Launch and connect to amazon linux 2 ec2 instance.
 
-_________________________________________________________________________________________
-
-D: /2021
+___________________________
 
 Linux Instances : Default username : ec2-user  / redhat / ubuntu
 
@@ -475,12 +473,10 @@ _________________________
 Task 1 : Launch Amazon Linux 2 Instance, Connect to the instance. 
 Task 2 : Launch a linux ec2 instance and make it as webserver, deliver the custom webpage. "Use Apache"
 Task 3 : Launch a Linux 2 ec2 instance and make it as webserver using "Nginx". 
+Task 4 : https://linuxsurvival.com/  (Complete all modules (first 2 atleast))
 
-______________________________________________________________________________________
 
-https://www.udemy.com/course/jenkinswithavinash/?couponCode=SEP021
-https://www.udemy.com/course/linuxwithavinash/?couponCode=SEP021
-
+______________________________________
 
 D: /2021
 
