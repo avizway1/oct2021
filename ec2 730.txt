@@ -476,9 +476,9 @@ Task 3 : Launch a Linux 2 ec2 instance and make it as webserver using "Nginx".
 Task 4 : https://linuxsurvival.com/  (Complete all modules (first 2 atleast))
 
 
-______________________________________
+______________________________________________________________________________________
 
-D: /2021
+D: 03/11/2021
 
 Windows : FAT, FAT32, NTFS, ReFS
 Linux : ext3, ext4, xfs
@@ -489,7 +489,7 @@ lsblk		--> List block based devices
 df -Th		--> List the available volumes
 
 /dev/xvda1	--> root volume (/)
-/dev/xvdf	--> new Volume name 
+/dev/xvdb	--> new Volume name 
 
 In windows OS, we mount new volumes to drive letters.. But in Linux OS, We mount volumes to Directory. 
 
@@ -509,7 +509,7 @@ mount /dev/xvdf newvolume/	--> mount addl volume to directory
 
 --> cat /etc/mtab		--> Grab the entry related to newly added addl volume
 
-/dev/xvdf /home/ec2-user/newvolume xfs rw,relatime,attr2,inode64,noquota 0 0
+/dev/xvdb /home/ec2-user/newvolume xfs rw,relatime,attr2,inode64,noquota 0 0
 
 --> vim /etc/fstab.. Write the above entry, save and quit the editor. (Do not edit the existing entry).
 
@@ -531,12 +531,14 @@ GoldenAMI on Linux :
 How to recover a Linux instance, if we lost Keyapir..!!!
 Ans : Choose the Instance --> Create a GAMI --> Launch from GAMI with New Keypair.
 
+You have an Linux ec2 instance, You lost the keypair of that ec2 instance and you want to recover the instance..?
 
-Task 1 : Launch linux ec2 instance with 8gb root volume. Add additional "1 gb" volume to ec2 instance and make it available at OS level.
+
+Task 1 : Launch linux ec2 instance with 8gb root volume. Add additional "1 gb" volume to ec2 instance and make it available at OS level. (reboot and test it)
 
 Task 2 : Increase the size of the "1 gb" volume to "2 gb" we used in task 1, make it available.
 
 Task 3 : Install webserver is Linux instance, Create a golden AMI of the linux instance. 
 While launching instance from goldenAMi, In final step, choose a new keypair. try to login to instance with both the keypairs. 
 
-
+Task 4 : https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/managing-users.html
