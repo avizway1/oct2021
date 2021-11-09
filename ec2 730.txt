@@ -650,6 +650,7 @@ Roundrobin algorithm..
 Task : Launch multiple webservers in Multiple AZs... COnfigure the Classic ELB. 
 _____________________________________________________________________________________
 
+D: 09/11/2021
 
 
 Target Group : Each target group is used to route requests to one or more registered targets. When you create each listener rule, you specify a target group and conditions. When a rule condition is met, traffic is forwarded to the corresponding target group.
@@ -687,4 +688,22 @@ Using CW Default metrics, We can monitor CPU, Network, DISK... But "NOT Memory" 
 --> We need to use Custom CW Metrics to get RAM Usage.
 
 ______________________________________________________
+
+
+
+ALB : http, https
+NLB : tcp, udp, tcp/tls
+
+Target Group : 
+
+
+
+
+
+
+
+
+
+
+
 
