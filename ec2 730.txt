@@ -687,18 +687,101 @@ EC2 :
 Using CW Default metrics, We can monitor CPU, Network, DISK... But "NOT Memory" / RAM.
 --> We need to use Custom CW Metrics to get RAM Usage.
 
-______________________________________________________
+____________________________________________________________________________________
+
+D: 10/11/2021
+
+ASG : Auto Scaling Group : 
+
+--> DYnamic (Step/Simple) Load 
+--> Scheduled scaling : 
+--> Manual : 
+
+1. Create a Golden AMI
+2. Create an ELB (Empty LB)
+3. Create an ASG
+	3.1 Create a Launch configuration / Launch template (WHat settings instance)
+	3.2 Configure the ASG (When to scale/ Desired count)
+
+
+ScaleIN : Remove the instance from ASG
+ScaleOut : Add the instances to ASG.
+
+How ASG will choose the instance to terminate if any ScaleIN action triggered..!! 
+
+ASG Termination policy : refer to the image.
+
+
+t2.micro --> Current configuration.. 
+t2.nano..??? How you can do this with 0 downtime..!! 
+
+
+Create a new launch configuration/template.. Associate this with ASG. Terminate the existing instance.. Now new instance will come with updated launch config settings.
+(Set Desired capacity to 2)..!!! 
+
+_____________________________________________________________________________________
+
+D: 11/11/2021
+
+EFS : Elastic File System (File Share) : Centralised storage. 
+--> EFS works with NFS V4.1  (Network file system) : Port 2049
+--> At movement it supports only Linux OS.
+--> No Pre-Provisioning required. 
+--> 5 gb efs standard storage under free tier limitation.
+
+2 ec2 instance --> Both as webservers --> for web content i'll take centralised location (EFS).. 
+
+Life Cycle Management : 
+EFS-Standard : 
+EFS-IA : 
+
+
+mkdir mountpoint
+mkdir myefs
+
+/var/www/html/
+
+sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-0eaff6b9ba5674bb8.efs.ap-south-1.amazonaws.com:/ shared
+
+sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-0eaff6b9ba5674bb8.efs.ap-south-1.amazonaws.com:/ /var/www/html/
+
+grab entry from /etc/mtab file and added this entry in /etc/fstab file
+
+fs-00f7ffd1.efs.ap-south-1.amazonaws.com:/ /var/www/html nfs4 rw,relatime,vers=4.1,rsize=1048576,wsize=1048576,namlen=255,hard,noresvport,proto=tcp,timeo=600,retrans=2,sec=sys,clientaddr=172.31.47.6,local_lock=none,addr=172.31.44.248 0 0
+_____
+
+For windows we have FSx.. 
+--> Works with SMB protocol (Server Message Block).
+
+__________________________________________________________
+
+We open ec2 instance ports to Entire network IP range (10.0.0.0/8)
+** SG Pipe mechanism.
+
+https://www.youtube.com/watch?v=46julItfeFQ
+
+If we are using "DefaultSG" for our EFS, We can add "DefaultSG" for our ec2 instance also, so both can communicate. 
+_____________________________________________
+
+Cloudwatch : 
+Dashboard : Centrally monitor multiple resources. 
+
+Project X : 
+ec2, s3, elb, rds
+
+Cloudwatch events is now renamed as Amazon Events Bridge.
+
+Task : Stop your ec2 instance at a given time using Cloudwatch eventsbridge option. 
+
+Task 2 : Create an EFS.. and Launch multiple ec2 instance, Make it as webserver.. Mount efs to "web content path". 
+
+Task 3 : Create an Eventsbridge to take a snapshot Everymonth 10th 06:00 AM for a particular volume.
+
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html
 
 
 
-ALB : http, https
-NLB : tcp, udp, tcp/tls
-
-Target Group : 
-
-
-
-
+30 12 * * MON-FRI *
 
 
 
