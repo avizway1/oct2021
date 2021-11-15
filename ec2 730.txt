@@ -874,9 +874,16 @@ ElasticBeanstalk : It provides preconfigured platforms.
 --> AWS Creates ELB, ASG automatically for our instances.
 --> Less customisations at OS level, We cannot deliver multiple applications. 
 
-___
+_____________________________________________________________________________________
+
+D: 15/11/2021
 
 Lightsail : 
+
+Placement Groups : How instances are placed in AWS DataCenter. 
+--> Spread PG
+--> Partition PG
+--> Cluster PG
 
 __
 

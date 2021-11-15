@@ -1,0 +1,60 @@
+VPC : Virtual Private Cloud : 
+
+Public IP : Unique across the globe 
+Private IP : unique within the network 
+
+192.168.100.1
+
+IPv4 : 32 Bit : 2^32
+IPv6 : 128 bit : 2^128
+
+Class A : 0.0.0.0 - 126.255.255.255
+Class B : 128.0.0.0 - 191.255.255.255
+Class C : 192.0.0.0 - 223.255.255.255
+
+Class D : 224.0.0.0 - 239.255.255.255 : Broadcosting purpose
+Class E : 240.0.0.0 - 255.255.255.255 : R&D
+
+127 : loopback / Localhost
+
+
+Every Class has a Private IP address range. Using this Private IP ranges won;t cost us anything. 
+
+Class A : 10.0.0.0 - 10.255.255.255
+Class B : 172.16.0.0 - 172.31.255.255
+Class C : 192.168.0.0 - 192.168.255.255
+
+ifconfig  / ip addr : Linux OS
+ipconfig /all	    : Windows OS
+
+
+Network : Group of interconnected hosts, which communicated each other.
+Host : Device with in Network. 
+
+Based on How many Networks you required.?
+How many Hosts you need with in every Network.?
+
+Class A : N.H.H.H : 127 Networks, Each Network 16M Hosts.
+Class B : N.N.H.H : 16,000 Networks, Each Network 65,000 Hosts.
+Class C : N.N.N.H : 2M Networks, Each Network supports 256 Hots. 
+
+
+192.168.0.(0-255) : 192.168.0.1/2/3/4/5../255
+192.168.1.(0-255) : 192.168.1.1/2/3/4/5../255
+192.168.2.(0-255) : 192.168.2.1/2/3/4/5../255
+
+172.16.0.0	: 172.16.(0-255).(0-255)
+
+172.16.0.0
+172.16.255.255
+
+10.(0-255).(0-255).(0-255)
+
+
+
+
+
+
+
+
+
