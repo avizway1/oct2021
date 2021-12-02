@@ -50,7 +50,9 @@ SMS : Server Migration Service :
 
 What Server we want to migrate to aws, Install CLoudendure Agent --> Cloudendure screen create a task and test the connection --> Launch migration instance in AWS environment --> Run the migration task.. We will get an AMI --> Launch instance from AMI. 
 
+Task : Launch a windows ec2 instance in mumbai region, and with the help of Cloudendure migrate this instance to another region.
 
+https://aws.amazon.com/application-migration-service/
 
 ____
 
@@ -68,7 +70,10 @@ We must create SSL Cert in N Virginia to map with cloudfront distribution.
 
 --> Based on endcustomer geo location, we can whitelist/blocklist the data.
 
-_____
+
+_________________________
+
+
 
 AWS Shiled / AWS Shieled advanced : Designed to protect our resources from DDoS Attack. 
 
