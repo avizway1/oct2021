@@ -71,9 +71,9 @@ We must create SSL Cert in N Virginia to map with cloudfront distribution.
 --> Based on endcustomer geo location, we can whitelist/blocklist the data.
 
 
-_________________________
+______________________________________________________________________________________
 
-
+D: 03/12/2021
 
 AWS Shiled / AWS Shieled advanced : Designed to protect our resources from DDoS Attack. 
 
@@ -83,10 +83,6 @@ Shield advanced cost us 3000$/Month.. AWS Team monitor the DDoS attack/traffic.
 ___
 
 AWS WAF (Web Application Firewall) : We can create rules in WAF and apply on top of Application Load balancer / Cloudfront / Api gateway.
-
-___
-
-task : Launch an ec2 instance, make it as webserver.. Launch elb, generate certificate, and map cert to elb and same domain map in Route53 and configure the http to https redirection.
 
 _______
 
@@ -118,7 +114,6 @@ __
 SQS : Simple Queue service : pull based messeging service. 
 Ex: AutoScaling group works with sqs service. 
 
-
 --> Standard 
 At-least-once delivery, message ordering isn't preserved
 At-least once delivery
@@ -139,16 +134,16 @@ __________
 SES : Simple Email Service : If we want to send messeges on behalf of another email / domain name, We can use SES service. 
 
 --> For bulk email sending, we need to use another service "Amazon pinpoint".
-_________
+_____________________________________________________________________________________
+
+D: 04/12/2021
 
 
+Coupon : DECFREE2021
 
-https://www.udemy.com/course/linuxwithavinash/?couponCode=MAY1AVINASH
-
-https://www.udemy.com/course/gitbyavinash/?referralCode=F7D62CDB4D61EADE1CC7
-
-https://www.udemy.com/course/jenkinswithavinash/?couponCode=MAY1AVINASH
-
+GIT : https://www.youtube.com/watch?v=rtI26X6FJX0&list=PLneBjIzDLECkdgoinrTO7D519zgPEmcte
+Linux : https://www.udemy.com/course/linuxwithavinash/?couponCode=DECFREE2021
+Jenkins : https://www.udemy.com/course/jenkinswithavinash/?couponCode=DECFREE2021
 
 ________________
 Codecommit
@@ -172,6 +167,7 @@ AWS Lambda : Serverless architecture.
 --> ruby
 --> Node.js
 
+
 Lambda-canary : It open the required website and look for the string we have given.
 
 google.com --> Google
@@ -181,8 +177,22 @@ google.com --> Google
 --> Can we run lambda within a VPC..?? YES
 	--> FOr Lambda role Make sure you associate "AWSLambdaVPCAccessExecutionRole"
 
-
 task : Am sharing some lambda functions... Deploy the lambda functions and test it. 
+
+________
+
+AWS Cloudformation : IaC Infrastructure as Code : JSON/YAML : 
+--> it's free.
+
+Prepare a cloudformation stack. This stack are reusable.
+--> CLoudformation created resources will delete automatically when we delete the cloudformation stack.
+
+
+2 ec2 instance, 3 s3 bucket, 1 rds onstance
+
+AWS Console Recorder : 
+
+https://www.youtube.com/watch?v=yDp6pGwasMo&list=PLneBjIzDLECmpOYF5y51fOsBRqPkuX3NH
 
 ________________________________________________________________________________________
 
@@ -208,22 +218,35 @@ lib/test-project-stack.ts	--> Our code is here
 
 https://cdkworkshop.com/
 
+___
+git clone
+git add
+git commit
+git push
+git pull
 
-AWS Cloudformation : IaC Infrastructure as Code : JSON/YAML : 
---> it's free.
+_____________________
 
-Prepare a cloudformation stack. This stack are reusable.
---> CLoudformation created resources will delete automatically when we delete the cloudformation stack.
+AWS Organisations & SSO : 
 
 
-2 ec2 instance, 3 s3 bucket, 1 rds onstance
+Sign-in URL: https://avizway1.awsapps.com/start, 
+Username: avinash, 
+Password: y6pM3IzvG?I<%PNG1V?$mk_dvJx
 
-AWS Console Recorder : 
-
+https://ecsworkshop.com/
+https://eksworkshop.com/
+https://www.youtube.com/containersfromthecouch
 
 
 ECR : Elastic Containers Repository : Place to store container images.
 ECS : Elastic Container Service : 
+
+ECR : 
+1. Login
+2. build the image
+3. Add rwquired tags
+4. Push the image to repo
 
 Fargate : Fully managed by AWS. No backend instance, AWS manages everything.
 EC2 : we will get an instance, COnstainers runs within instance, We can login and perform os level operations.
@@ -240,43 +263,21 @@ https://ecsworkshop.com/
 
 
 
+https://www.youtube.com/watch?v=wmcBSHpoHhs
+https://www.youtube.com/watch?v=Fe2mEkWiNSA
+
+AD : https://www.youtube.com/watch?v=RDlBoAHVmZs
+Ad Connector : https://www.youtube.com/watch?v=Ca259gg6SoM
+Linux to AD : https://www.youtube.com/watch?v=LWi9-XL2vWQ
 
 
+Coupon : DECFREE2021
 
+GIT : https://www.youtube.com/watch?v=rtI26X6FJX0&list=PLneBjIzDLECkdgoinrTO7D519zgPEmcte
+Linux : https://www.udemy.com/course/linuxwithavinash/?couponCode=DECFREE2021
+Jenkins : https://www.udemy.com/course/jenkinswithavinash/?couponCode=DECFREE2021
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+https://calculator.aws/
 
 
 
